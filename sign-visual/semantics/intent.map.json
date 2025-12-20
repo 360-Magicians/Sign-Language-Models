@@ -1,0 +1,40 @@
+{
+  "mappings": {
+    "ask_question": {
+      "semantic": "inquiry",
+      "state": "listening",
+      "confidence": 0.9,
+      "sign_concept": "question-open"
+    },
+    "provide_answer": {
+      "semantic": "explanation",
+      "state": "processing",
+      "confidence": 0.8,
+      "sign_concept": "inform-direct"
+    },
+    "request_help": {
+      "semantic": "assistance",
+      "state": "listening",
+      "confidence": 1.0,
+      "sign_concept": "help-request"
+    },
+    "confirm_action": {
+      "semantic": "agreement",
+      "state": "deciding",
+      "confidence": 0.7,
+      "sign_concept": "affirm-strong"
+    },
+    "reject_action": {
+      "semantic": "disagreement",
+      "state": "error",
+      "confidence": 1.0,
+      "sign_concept": "deny-strong"
+    },
+    "express_uncertainty": {
+      "semantic": "confusion",
+      "state": "processing",
+      "confidence": 0.3,
+      "sign_concept": "uncertain-questioning"
+    }
+  }
+}

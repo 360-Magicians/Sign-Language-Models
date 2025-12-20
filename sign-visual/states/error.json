@@ -1,0 +1,15 @@
+{
+  "state": "error",
+  "visual": {
+    "animation": "alert",
+    "color": "#EF4444",
+    "icon": "alert-triangle",
+    "description": "Error occurred"
+  },
+  "semantics": {
+    "intent": "warning",
+    "confidence": 1.0,
+    "message": "Problem detected"
+  },
+  "transitions": ["idle", "processing", "needs_input"]
+}

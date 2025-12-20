@@ -1,0 +1,58 @@
+{
+  "version": "1.0.0",
+  "description": "Deaf contributor feedback on sign semantic mappings",
+  "lastUpdated": "2025-12-20",
+  "feedback": [],
+  "approvedMappings": {
+    "idle": {
+      "status": "pending_review",
+      "reviewers": [],
+      "notes": "Needs validation from Deaf community"
+    },
+    "listening": {
+      "status": "pending_review",
+      "reviewers": [],
+      "notes": "Needs validation from Deaf community"
+    },
+    "processing": {
+      "status": "pending_review",
+      "reviewers": [],
+      "notes": "Needs validation from Deaf community"
+    },
+    "validating": {
+      "status": "pending_review",
+      "reviewers": [],
+      "notes": "Needs validation from Deaf community"
+    },
+    "deciding": {
+      "status": "pending_review",
+      "reviewers": [],
+      "notes": "Needs validation from Deaf community"
+    },
+    "executing": {
+      "status": "pending_review",
+      "reviewers": [],
+      "notes": "Needs validation from Deaf community"
+    },
+    "completed": {
+      "status": "pending_review",
+      "reviewers": [],
+      "notes": "Needs validation from Deaf community"
+    },
+    "error": {
+      "status": "pending_review",
+      "reviewers": [],
+      "notes": "Needs validation from Deaf community"
+    }
+  },
+  "reviewProcess": {
+    "description": "All semantic mappings must be reviewed and approved by Deaf contributors before being marked as approved",
+    "steps": [
+      "1. Submit mapping for review",
+      "2. Deaf contributors test the visual representation",
+      "3. Gather feedback on clarity and accuracy",
+      "4. Iterate based on feedback",
+      "5. Mark as approved when consensus is reached"
+    ]
+  }
+}

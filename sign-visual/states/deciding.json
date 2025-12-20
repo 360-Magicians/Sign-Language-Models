@@ -1,0 +1,15 @@
+{
+  "state": "deciding",
+  "visual": {
+    "animation": "weighing",
+    "color": "#EC4899",
+    "icon": "scale",
+    "description": "Making decision"
+  },
+  "semantics": {
+    "intent": "choosing",
+    "confidence": 0.6,
+    "message": "Deciding action..."
+  },
+  "transitions": ["executing", "validating", "error", "needs_input"]
+}

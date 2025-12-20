@@ -1,0 +1,15 @@
+{
+  "state": "executing",
+  "visual": {
+    "animation": "active",
+    "color": "#10B981",
+    "icon": "zap",
+    "description": "Executing action"
+  },
+  "semantics": {
+    "intent": "acting",
+    "confidence": 0.9,
+    "message": "Taking action..."
+  },
+  "transitions": ["fetching", "completed", "error", "processing"]
+}

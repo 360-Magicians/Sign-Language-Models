@@ -1,0 +1,15 @@
+{
+  "state": "completed",
+  "visual": {
+    "animation": "success",
+    "color": "#22C55E",
+    "icon": "check-circle",
+    "description": "Action completed"
+  },
+  "semantics": {
+    "intent": "finished",
+    "confidence": 1.0,
+    "message": "Done!"
+  },
+  "transitions": ["idle", "listening", "processing"]
+}
