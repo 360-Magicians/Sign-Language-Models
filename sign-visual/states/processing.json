@@ -1,0 +1,15 @@
+{
+  "state": "processing",
+  "visual": {
+    "animation": "thinking",
+    "color": "#8B5CF6",
+    "icon": "brain",
+    "description": "Processing request"
+  },
+  "semantics": {
+    "intent": "analyzing",
+    "confidence": 0.7,
+    "message": "Thinking..."
+  },
+  "transitions": ["validating", "deciding", "executing", "completed", "error", "needs_input"]
+}

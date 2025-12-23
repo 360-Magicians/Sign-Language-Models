@@ -1,0 +1,54 @@
+{
+  "mappings": {
+    "initialize": {
+      "semantic": "starting",
+      "state": "idle",
+      "sign_concept": "begin-prepare"
+    },
+    "receive_input": {
+      "semantic": "receiving",
+      "state": "listening",
+      "sign_concept": "accept-input"
+    },
+    "analyze_request": {
+      "semantic": "analyzing",
+      "state": "processing",
+      "sign_concept": "think-deep"
+    },
+    "validate_safety": {
+      "semantic": "checking",
+      "state": "validating",
+      "sign_concept": "verify-safe"
+    },
+    "make_decision": {
+      "semantic": "choosing",
+      "state": "deciding",
+      "sign_concept": "choose-path"
+    },
+    "execute_action": {
+      "semantic": "acting",
+      "state": "executing",
+      "sign_concept": "do-now"
+    },
+    "fetch_data": {
+      "semantic": "retrieving",
+      "state": "executing",
+      "sign_concept": "get-information"
+    },
+    "complete_task": {
+      "semantic": "finishing",
+      "state": "completed",
+      "sign_concept": "done-success"
+    },
+    "handle_error": {
+      "semantic": "problem",
+      "state": "error",
+      "sign_concept": "error-handle"
+    },
+    "wait_for_user": {
+      "semantic": "paused",
+      "state": "needs_input",
+      "sign_concept": "wait-you"
+    }
+  }
+}

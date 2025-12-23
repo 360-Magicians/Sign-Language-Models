@@ -1,0 +1,15 @@
+{
+  "state": "idle",
+  "visual": {
+    "animation": "neutral",
+    "color": "#6B7280",
+    "icon": "hand-wave",
+    "description": "System ready"
+  },
+  "semantics": {
+    "intent": "waiting",
+    "confidence": 1.0,
+    "message": "Ready to assist"
+  },
+  "transitions": ["listening", "processing", "error"]
+}

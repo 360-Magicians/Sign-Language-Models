@@ -1,0 +1,15 @@
+{
+  "state": "validating",
+  "visual": {
+    "animation": "checking",
+    "color": "#F59E0B",
+    "icon": "shield-check",
+    "description": "Validating action"
+  },
+  "semantics": {
+    "intent": "verifying",
+    "confidence": 0.8,
+    "message": "Checking safety..."
+  },
+  "transitions": ["deciding", "processing", "error", "completed"]
+}

@@ -1,30 +1,61 @@
-# ASL Model Training
+# Sign Language Visual System
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
-
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/mbtquniverse/v0-ai-model-project-config-dependencies-requirements-missing)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/mdjIlm6GN43)
+A next-generation interaction system that treats sign language as a primary visual channel for agentic systems.
 
 ## Overview
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+This system provides sign language as a first-class interaction layer, not as translation or accessibility overlay. Sign visuals reflect system state and intent in real-time, making agent cognition visible.
+
+## Core Principle
+
+**Sign visuals reflect system state, not just output text.**
+
+- Text = optional
+- Sign = authoritative
+
+## Architecture
+
+Built on Next.js with standalone deployment support.
+
+### Key Components
+
+- **SignerPanel**: Persistent, dockable panel for sign visualization
+- **StateIndicator**: Visual representation of system states (listening, processing, deciding, executing, error)
+- **ConfidenceCue**: Display certainty, uncertainty, and warnings
+
+## Getting Started
+
+```bash
+# Install dependencies
+npm install --legacy-peer-deps
+
+# Run development server
+npm run dev
+
+# Build for production (standalone)
+npm run build
+
+# Start standalone server
+npm start
+```
 
 ## Deployment
 
-Your project is live at:
+This project is configured for standalone deployment. The build output includes everything needed to run independently.
 
-**[https://vercel.com/mbtquniverse/v0-ai-model-project-config-dependencies-requirements-missing](https://vercel.com/mbtquniverse/v0-ai-model-project-config-dependencies-requirements-missing)**
+### Build Configuration
 
-## Build your app
+The Next.js config is set to:
+- Generate standalone output
+- Work without external font dependencies
+- Disable build-time TypeScript/ESLint checks for flexibility
 
-Continue building your app on:
+## Documentation
 
-**[https://v0.dev/chat/projects/mdjIlm6GN43](https://v0.dev/chat/projects/mdjIlm6GN43)**
+- [Sign Visual System Specification](./sign-visual-system.md)
+- [Implementation Plan](./IMPLEMENTATION_PLAN.md)
 
-## How It Works
+## Philosophy
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+> If the system thinks, it signs.
+> If it cannot sign, it should not act.

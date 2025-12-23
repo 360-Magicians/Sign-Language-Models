@@ -1,0 +1,15 @@
+{
+  "state": "listening",
+  "visual": {
+    "animation": "attentive",
+    "color": "#3B82F6",
+    "icon": "ear",
+    "description": "Listening to input"
+  },
+  "semantics": {
+    "intent": "receiving",
+    "confidence": 0.9,
+    "message": "I'm listening"
+  },
+  "transitions": ["processing", "idle", "error"]
+}

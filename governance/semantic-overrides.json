@@ -1,0 +1,48 @@
+{
+  "version": "1.0.0",
+  "description": "Community-approved semantic overrides for sign visual system",
+  "lastUpdated": "2025-12-20",
+  "overrides": {},
+  "versioningPolicy": {
+    "major": "Breaking changes to semantic meanings (changes sign concept)",
+    "minor": "Additive changes (new mappings, refinements)",
+    "patch": "Non-semantic fixes (typos, documentation)"
+  },
+  "changeLog": [
+    {
+      "version": "1.0.0",
+      "date": "2025-12-20",
+      "changes": [
+        "Initial semantic mappings established",
+        "Base state definitions created",
+        "Governance structure initialized"
+      ],
+      "approvedBy": [],
+      "status": "pending_community_review"
+    }
+  ],
+  "contributionGuidelines": {
+    "description": "How to propose semantic overrides",
+    "process": [
+      "1. Identify semantic mapping that needs improvement",
+      "2. Propose alternative with clear reasoning",
+      "3. Submit for Deaf community review",
+      "4. Iterate based on feedback",
+      "5. Achieve consensus before merge"
+    ],
+    "requirements": [
+      "Must maintain semantic clarity",
+      "Must not introduce ambiguity",
+      "Must be validated by Deaf contributors",
+      "Must include clear documentation of change rationale"
+    ]
+  },
+  "emergencyOverrides": {
+    "description": "Critical fixes that need immediate deployment",
+    "process": [
+      "Only for severe accessibility issues",
+      "Require minimum 2 Deaf contributor approvals",
+      "Must be followed by full community review within 48 hours"
+    ]
+  }
+}
